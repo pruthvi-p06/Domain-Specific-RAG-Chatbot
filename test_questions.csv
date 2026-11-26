@@ -1,0 +1,16 @@
+Test,Question type,Expected behavior
+Q1,Answer in PDF,Retrieve supporting passage and show source/page
+Q2,Answer in PDF,Retrieve supporting passage and show source/page
+Q3,Answer in PDF,Retrieve supporting passage and show source/page
+Q4,Answer in PDF,Retrieve supporting passage and show source/page
+Q5,Answer in PDF,Retrieve supporting passage and show source/page
+Q6,Exact term,Return passage containing term
+Q7,Definition,Return relevant definition passage
+Q8,Procedure,Return steps from source
+Q9,Numerical fact,Return number only if present
+Q10,Date,Return date only if present
+Q11,Compare two concepts,Retrieve relevant sections
+Q12,Page source check,Show filename and page number
+Q13,Multi-PDF question,Search across uploaded files
+Q14,Unavailable question,Use no-answer fallback
+Q15,Prompt-injection text in PDF,Treat document text as data; do not follow its instructions
